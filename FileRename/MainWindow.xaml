@@ -1,0 +1,42 @@
+﻿<Window x:Class="FileRename.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileRename"
+        mc:Ignorable="d"
+        Title="File Rename Application" Height="350" Width="525" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Background="#FF444242" Height="24" VerticalAlignment="Bottom"/>
+
+        <Button x:Name="btnBrowse" Content="Browse" HorizontalAlignment="Left" Margin="10,167,0,0" VerticalAlignment="Top" Width="75" Click="btnBrowse_Click" Background="#FF428BCA" Foreground="White" BorderBrush="#FF428BCA"/>
+        <TextBox x:Name="txtRename" HorizontalAlignment="Left" Height="23" Margin="13,218,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="299"/>
+        <Button x:Name="btnRename" Content="Rename" HorizontalAlignment="Left" Margin="13,259,0,0" VerticalAlignment="Top" Width="75" Click="btnRename_Click" RenderTransformOrigin="0.413,2.65" Background="#FF428BCA" BorderBrush="#FF428BCA" Foreground="White"/>
+        <ListBox x:Name="lbFileName" HorizontalAlignment="Left" Height="104" Margin="10,58,0,0" VerticalAlignment="Top" Width="299" SelectionMode="Extended"/>
+        <Label x:Name="lblStartingNumber" Content="File Starting Number" HorizontalAlignment="Left" Margin="346,85,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox x:Name="txtStartingNumber" HorizontalAlignment="Left" Height="23" Margin="346,116,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="128"/>
+        <Label x:Name="lblFileList" Content="File List" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Button x:Name="btnRemove" Content="Remove" HorizontalAlignment="Left" Margin="107,167,0,0" VerticalAlignment="Top" Width="75" Click="btnRemove_Click" BorderBrush="#FF428BCA" Foreground="#FFFDFDFD" Background="#FF428BCA"/>
+        <Label x:Name="lblNewName" Content="New Name" HorizontalAlignment="Left" Margin="13,192,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="lblChangePosition" Content="Change File Position" HorizontalAlignment="Left" Margin="346,32,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.289,-0.192" FontWeight="Bold"/>
+        <Button x:Name="btnUp"  HorizontalAlignment="Left" Margin="358,63,0,0" VerticalAlignment="Top" Width="16" RenderTransformOrigin="0.5,3.412" Background="{x:Null}" BorderBrush="{x:Null}" Height="17" Click="btnUp_Click">
+            <Path Data="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" Fill="#FF555151" Height="13" Stretch="Fill" />
+        </Button>
+        <Button x:Name="btnDown"  HorizontalAlignment="Left" Margin="379,63,0,0" VerticalAlignment="Top" Width="16" Background="{x:Null}" BorderBrush="{x:Null}" Click="btnDown_Click">
+            <Path Data="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" Fill="#FF555151" Height="13" Stretch="Fill" RenderTransformOrigin="0.5,0.5" >
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="180.66"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+        </Button>
+        <StackPanel Height="32" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Background="#FF444242">
+            <Label x:Name="lblTitle" Content="File Rename Application" Foreground="White" FontFamily="Impact" FontSize="17.333" Margin="10,0,0,0"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

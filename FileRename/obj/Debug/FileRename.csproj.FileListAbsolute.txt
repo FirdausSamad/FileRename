@@ -1,0 +1,14 @@
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\bin\Debug\FileRename.exe.config
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\bin\Debug\FileRename.exe
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\bin\Debug\FileRename.pdb
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename.csprojResolveAssemblyReference.cache
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\MainWindow.g.cs
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\App.g.cs
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename_MarkupCompile.cache
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename_MarkupCompile.lref
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\MainWindow.baml
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename.g.resources
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename.Properties.Resources.resources
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename.csproj.GenerateResource.Cache
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename.exe
+C:\Users\Firdaus Samad\Documents\Visual Studio 2015\Projects\Practice WPF\FileRename\FileRename\obj\Debug\FileRename.pdb
